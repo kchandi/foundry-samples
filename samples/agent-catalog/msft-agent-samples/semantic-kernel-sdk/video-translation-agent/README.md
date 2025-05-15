@@ -6,12 +6,9 @@ This code sample supports building agents for multilingual video localization wi
 
 ## Demo
 
-<div align="center">
-  <video width="800" controls>
-    <source src="./assets/demo.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</div>
+<p align="center">
+  <video src="./assets/demo.mp4" poster="./assets/video-thumbnail.png" controls></video>
+</p>
 
 You can find the demo video at `./assets/demo.mp4` in the repository.
 
@@ -58,7 +55,7 @@ Follow the [official Azure AI Agent Service documentation](https://learn.microso
 
 ### Quickstart
 
-1. Clone the repository and navigate to the `video-translation-agent` folder using the "cd" command in the terminal.
+1. Clone the repository and navigate to the `video-translation-agent` folder.
 
 2. Create and activate a virtual environment:
 
