@@ -2,15 +2,7 @@
 
 ## Summary
 
-This code sample supports building agents for multilingual video localization with translation, subtitles, and speech generation. It leverages Azure AI Foundry, Azure AI Cognitive Services, and Azure Blob Storage to provide high-quality video translations between languages with customizable speech and subtitle options.
-
-## Demo
-
-<p align="center">
-  <video src="./assets/demo.mp4" poster="./assets/video-thumbnail.png" controls></video>
-</p>
-
-You can find the demo video at `./assets/demo.mp4` in the repository.
+This code sample supports building agents for multilingual video localization with translation, subtitles, and speech generation. It leverages Azure AI Foundry, Azure AI Speech, and Azure Blob Storage to provide high-quality video translations between languages with customizable speech and subtitle options.
 
 ## Use Cases
 
@@ -25,7 +17,7 @@ You can find the demo video at `./assets/demo.mp4` in the repository.
 The Video Translation Agent uses:
 - **Azure AI Agents** - For conversation management and orchestration
 - **Semantic Kernel** - For creating the AI Agent and managing plugins
-- **Azure AI's Cognitive Services Video Translation API** - For the core video translation functionality
+- **Azure AI Speech's Video Translation API** - For the core video translation functionality
 - **Azure Blob Storage** - For secure file storage and retrieval
 
 <div align="center">
