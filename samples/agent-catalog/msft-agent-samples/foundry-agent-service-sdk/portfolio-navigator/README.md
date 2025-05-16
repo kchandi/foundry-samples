@@ -2,6 +2,10 @@
 
 This code sample supports agent creation for exploring financial topics from Morningstar data and Bing Search, helps users explore investment products, understand market trends, and clarify financial concepts using trusted data sources. Built with Azure AI Agent Service, it integrates Bing Search and the Morningstar API to deliver transparent, cited insights—ideal for educational use, not personal financial advice.
 
+**IMPORTANT NOTE:** Starter templates, instructions, code samples and resources in this msft-agent-samples file (“samples”) are designed to assist in accelerating development of agents for specific scenarios. It is important that you review all provided resources and carefully test Agent behavior in the context of your use case: ([Learn More](https://learn.microsoft.com/en-us/legal/cognitive-services/agents/transparency-note?context=%2Fazure%2Fai-services%2Fagents%2Fcontext%2Fcontext)). 
+
+Certain Agent offerings may be subject to legal and regulatory requirements, may require licenses, or may not be suitable for all industries, scenarios, or use cases. By using any sample, you are acknowledging that Agents or other output created using that sample are solely your responsibility, and that you will comply with all applicable laws, regulations, and relevant safety standards, terms of service, and codes of conduct.  
+
 ---
 
 ## 🧰 Use Cases
@@ -39,14 +43,23 @@ Built with **Azure AI Agent Service**, the Portfolio Navigator Agent uses:
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 ### Prerequisites
 
-- Azure AI Agent Service-enabled project
-- Azure AI Agent SDK installed (`requirements.txt`)
-- External API access credentials for Morningstar and Bing (where applicable)
-- Sample dataset: `trusty_link_dataset.xlsx`
+1. Azure subscription with the following permissions
+   - Contributor or Cognitive Services Contributor role (for resource deployment)
+   - Azure AI Developer and Cognitive Services user role (for agent creation)
+2. Agent setup: deploy the latest agent setup using this ([custom deployment](https://www.aka.ms/basic-agent-deployment)).
+   - The above creates:
+      - AI Services resource
+      - AI Project
+      - Model deployment
+3. Python 3.8+
+4. Azure CLI
+5. Azure AI Agent SDK installed (`requirements.txt`)
+6. External API access credentials for Morningstar and Bing (where applicable)
+7. Sample dataset: `trusty_link_dataset.xlsx`
 
 ---
 

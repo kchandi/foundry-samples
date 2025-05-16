@@ -1,11 +1,15 @@
 # Intent Routing Agent
 
-This **Intent Routing Agent** code sample helps create agents that detect user intent and provide exact answering, using Azure AI Agent Service, Conversational Language Understanding (CLU) and Custom Question Answering (CQA) in Azure AI Language. It detects user intent and provides exact answers, perfect for deterministic intent routing and precise question answering with human controls. With it, businesses can handle top intents and questions that cover, say, 90% of their business applications using human-controlled intent detection and question answering, while leveraging LLM RAG solutions to handle long-tail queries. Perfect for deterministically intent routing and exact question answering with human controls. 
+This **Intent Routing Agent** code sample helps create agents that detect user intent and provide exact answering, using Azure AI Agent Service, Conversational Language Understanding (CLU) and Custom Question Answering (CQA) in Azure AI Language. It detects user intent and provides exact answers, perfect for deterministic intent routing and precise question answering with human controls. With it, businesses can 
+use human-controlled intent detection and question answering, while leveraging LLM RAG solutions to handle long-tail queries. Helpful for deterministically intent routing and excat question answering with human controls.
+
+**IMPORTANT NOTE:** Starter templates, instructions, code samples and resources in this msft-agent-samples file (“samples”) are designed to assist in accelerating development of agents for specific scenarios. It is important that you review all provided resources and carefully test Agent behavior in the context of your use case: ([Learn More](https://learn.microsoft.com/en-us/legal/cognitive-services/agents/transparency-note?context=%2Fazure%2Fai-services%2Fagents%2Fcontext%2Fcontext)). 
+
+Certain Agent offerings may be subject to legal and regulatory requirements, may require licenses, or may not be suitable for all industries, scenarios, or use cases. By using any sample, you are acknowledging that Agents or other output created using that sample are solely your responsibility, and that you will comply with all applicable laws, regulations, and relevant safety standards, terms of service, and codes of conduct.  
 
 ## Use Cases
-1. **Customer Support**: Identify user intent (e.g., "cancel my order" vs. "where is my package") to eanble routing to deterministic workflows accordingly. Forfrequently asked or high value questions (e.g., return policy, warranty info), provide precise answers from a verified knowledge base.  
-2. **E-commerce**:Detect customer shopping intents such as comparing products or tracking orders. Offer fact-based answers like “Which jackets are waterproof under $200?” or “When will my order arrive?”—while handing off complex support needs to a human.
-3. **Banking and Finance**:Recognize intents like “check my balance,” “dispute a charge,” or “find mortgage options.” to enable deteministic intent fulfillment routing. Provide percise answers such as interest rates, statement breakdowns, or loan requirements, with built-in guardrails for compliance.
+1. **Customer Support**: Identify user intent (e.g., "cancel my order" vs. "where is my package") to enable routing to deterministic workflows accordingly. For frequently asked or high value questions (e.g., return policy, warranty info), provide precise answers from a verified knowledge base.  
+2. **E-commerce**: Detect customer shopping intents such as comparing products or tracking orders. Offer fact-based answers like “Which jackets are waterproof under $200?” or “When will my order arrive?”, while handing off complex support needs to a human.
 
 
 ## Architecture Overview
@@ -127,7 +131,3 @@ Certain items, such as personalized, clearance, or final sale products, may not 
 - Fine-tuning the associated CLU deployment, e.g. adding/modify/delete intents or entities etc
 - Fine-tuning the associated CQA deployment, e.g. adding/modify/delete question-answer paires, or finetune questions, etc
 - Extend the agent with other useful tools or APIs (using OpenAPI spec).
-
-
-## License
-This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
