@@ -37,7 +37,7 @@ The Video Translation Agent uses:
 - [Python > 3.11.10](https://www.python.org/downloads/)
 - [Git](https://git-scm.com/downloads)
 - Azure resources:
-  - **Azure subscription**: [Create a free account](https://azure.microsoft.com/free/) if you don't already have one
+  - **Azure subscription**: [Create an account](https://azure.microsoft.com/free/) if you don't already have one
   - **Azure AI Speech Services**: 
     - Create a [Speech resource](https://portal.azure.com/#create/Microsoft.CognitiveServicesSpeechServices) in a [supported region for video translation](https://learn.microsoft.com/azure/ai-services/speech-service/regions#speech-service)
   - **Azure Blob Storage**:
